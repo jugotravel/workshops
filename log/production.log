@@ -1,0 +1,1264 @@
+I, [2015-04-19T18:06:27.450119 #21005]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-04-19 18:06:27 +0200
+I, [2015-04-19T18:06:27.489992 #21005]  INFO -- : Processing by CategoriesController#index as HTML
+I, [2015-04-19T18:06:27.557081 #21005]  INFO -- :   Rendered categories/index.html.haml within layouts/application (64.1ms)
+I, [2015-04-19T18:06:27.564363 #21005]  INFO -- : Completed 200 OK in 74ms (Views: 62.0ms | ActiveRecord: 11.6ms)
+I, [2015-04-19T18:06:27.743859 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:27 +0200
+F, [2015-04-19T18:06:27.746437 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:27.763300 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:27 +0200
+F, [2015-04-19T18:06:27.765779 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:31.050483 #21005]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-04-19 18:06:31 +0200
+I, [2015-04-19T18:06:31.052635 #21005]  INFO -- : Processing by CategoriesController#index as HTML
+I, [2015-04-19T18:06:31.059856 #21005]  INFO -- :   Rendered categories/index.html.haml within layouts/application (6.1ms)
+I, [2015-04-19T18:06:31.061534 #21005]  INFO -- : Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 1.1ms)
+I, [2015-04-19T18:06:31.207567 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:31 +0200
+F, [2015-04-19T18:06:31.209539 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:31.210936 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:31 +0200
+F, [2015-04-19T18:06:31.213709 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:36.718001 #21005]  INFO -- : Started GET "/users/2" for 127.0.0.1 at 2015-04-19 18:06:36 +0200
+I, [2015-04-19T18:06:36.721013 #21005]  INFO -- : Processing by UsersController#show as HTML
+I, [2015-04-19T18:06:36.721113 #21005]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2015-04-19T18:06:36.755278 #21005]  INFO -- :   Rendered users/show.html.haml within layouts/application (14.8ms)
+I, [2015-04-19T18:06:36.759323 #21005]  INFO -- : Completed 200 OK in 38ms (Views: 19.8ms | ActiveRecord: 6.6ms)
+I, [2015-04-19T18:06:36.877764 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:36 +0200
+F, [2015-04-19T18:06:36.881593 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:36.898424 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:36 +0200
+F, [2015-04-19T18:06:36.900769 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:39.669253 #21005]  INFO -- : Started GET "/users/2" for 127.0.0.1 at 2015-04-19 18:06:39 +0200
+I, [2015-04-19T18:06:39.670798 #21005]  INFO -- : Processing by UsersController#show as HTML
+I, [2015-04-19T18:06:39.670902 #21005]  INFO -- :   Parameters: {"id"=>"2"}
+I, [2015-04-19T18:06:39.678765 #21005]  INFO -- :   Rendered users/show.html.haml within layouts/application (2.6ms)
+I, [2015-04-19T18:06:39.682662 #21005]  INFO -- : Completed 200 OK in 12ms (Views: 6.3ms | ActiveRecord: 2.2ms)
+I, [2015-04-19T18:06:39.860163 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:39 +0200
+F, [2015-04-19T18:06:39.863151 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:39.867415 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:39 +0200
+F, [2015-04-19T18:06:39.870081 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:40.781737 #21005]  INFO -- : Started GET "/categories" for 127.0.0.1 at 2015-04-19 18:06:40 +0200
+I, [2015-04-19T18:06:40.783973 #21005]  INFO -- : Processing by CategoriesController#index as HTML
+I, [2015-04-19T18:06:40.792660 #21005]  INFO -- :   Rendered categories/index.html.haml within layouts/application (7.3ms)
+I, [2015-04-19T18:06:40.797009 #21005]  INFO -- : Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 1.2ms)
+I, [2015-04-19T18:06:40.960169 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:40 +0200
+F, [2015-04-19T18:06:40.963448 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:40.965244 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:40 +0200
+F, [2015-04-19T18:06:40.967824 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:42.949515 #21005]  INFO -- : Started GET "/categories/new" for 127.0.0.1 at 2015-04-19 18:06:42 +0200
+I, [2015-04-19T18:06:42.981331 #21005]  INFO -- : Processing by CategoriesController#new as HTML
+I, [2015-04-19T18:06:42.984587 #21005]  INFO -- : Redirected to http://localhost:3000/users/sign_in
+I, [2015-04-19T18:06:42.984791 #21005]  INFO -- : Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+I, [2015-04-19T18:06:42.995422 #21005]  INFO -- : Started GET "/users/sign_in" for 127.0.0.1 at 2015-04-19 18:06:42 +0200
+I, [2015-04-19T18:06:42.999423 #21005]  INFO -- : Processing by Devise::SessionsController#new as HTML
+I, [2015-04-19T18:06:43.076560 #21005]  INFO -- : Redirected to http://localhost:3000/
+I, [2015-04-19T18:06:43.076857 #21005]  INFO -- : Filter chain halted as :require_no_authentication rendered or redirected
+I, [2015-04-19T18:06:43.077137 #21005]  INFO -- : Completed 302 Found in 77ms (ActiveRecord: 1.0ms)
+I, [2015-04-19T18:06:43.089976 #21005]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-04-19 18:06:43 +0200
+I, [2015-04-19T18:06:43.091910 #21005]  INFO -- : Processing by CategoriesController#index as HTML
+I, [2015-04-19T18:06:43.099995 #21005]  INFO -- :   Rendered categories/index.html.haml within layouts/application (6.9ms)
+I, [2015-04-19T18:06:43.101566 #21005]  INFO -- : Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 1.4ms)
+I, [2015-04-19T18:06:43.229929 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:43 +0200
+F, [2015-04-19T18:06:43.235447 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:43.236944 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:43 +0200
+F, [2015-04-19T18:06:43.239389 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:45.243172 #21005]  INFO -- : Started GET "/categories/5" for 127.0.0.1 at 2015-04-19 18:06:45 +0200
+I, [2015-04-19T18:06:45.245371 #21005]  INFO -- : Processing by CategoriesController#show as HTML
+I, [2015-04-19T18:06:45.245517 #21005]  INFO -- :   Parameters: {"id"=>"5"}
+I, [2015-04-19T18:06:45.347300 #21005]  INFO -- :   Rendered products/_form.html.haml (16.9ms)
+I, [2015-04-19T18:06:45.351097 #21005]  INFO -- :   Rendered categories/show.html.haml within layouts/application (103.3ms)
+I, [2015-04-19T18:06:45.354215 #21005]  INFO -- : Completed 200 OK in 108ms (Views: 101.6ms | ActiveRecord: 6.6ms)
+I, [2015-04-19T18:06:45.493271 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:45 +0200
+F, [2015-04-19T18:06:45.495610 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:45.500517 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:45 +0200
+F, [2015-04-19T18:06:45.502451 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:48.612978 #21005]  INFO -- : Started GET "/categories" for 127.0.0.1 at 2015-04-19 18:06:48 +0200
+I, [2015-04-19T18:06:48.614544 #21005]  INFO -- : Processing by CategoriesController#index as HTML
+I, [2015-04-19T18:06:48.623632 #21005]  INFO -- :   Rendered categories/index.html.haml within layouts/application (7.9ms)
+I, [2015-04-19T18:06:48.625427 #21005]  INFO -- : Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 1.4ms)
+I, [2015-04-19T18:06:48.747059 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:48 +0200
+F, [2015-04-19T18:06:48.749737 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:48.754564 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:48 +0200
+F, [2015-04-19T18:06:48.757199 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:49.987491 #21005]  INFO -- : Started GET "/categories/1" for 127.0.0.1 at 2015-04-19 18:06:49 +0200
+I, [2015-04-19T18:06:49.989646 #21005]  INFO -- : Processing by CategoriesController#show as HTML
+I, [2015-04-19T18:06:49.989802 #21005]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2015-04-19T18:06:50.011014 #21005]  INFO -- :   Rendered products/_form.html.haml (3.2ms)
+I, [2015-04-19T18:06:50.013718 #21005]  INFO -- :   Rendered categories/show.html.haml within layouts/application (22.9ms)
+I, [2015-04-19T18:06:50.015828 #21005]  INFO -- : Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 2.0ms)
+I, [2015-04-19T18:06:50.141499 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:50 +0200
+F, [2015-04-19T18:06:50.143478 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:50.146701 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:50 +0200
+F, [2015-04-19T18:06:50.148691 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:51.559697 #21005]  INFO -- : Started GET "/categories/1/products/1" for 127.0.0.1 at 2015-04-19 18:06:51 +0200
+I, [2015-04-19T18:06:51.563350 #21005]  INFO -- : Processing by ProductsController#show as HTML
+I, [2015-04-19T18:06:51.563477 #21005]  INFO -- :   Parameters: {"category_id"=>"1", "id"=>"1"}
+I, [2015-04-19T18:06:51.590710 #21005]  INFO -- :   Rendered reviews/_form.html.haml (13.5ms)
+I, [2015-04-19T18:06:51.609339 #21005]  INFO -- :   Rendered reviews/_review.html.haml (11.5ms)
+I, [2015-04-19T18:06:51.613405 #21005]  INFO -- :   Rendered products/show.html.haml within layouts/application (47.3ms)
+I, [2015-04-19T18:06:51.615241 #21005]  INFO -- : Completed 200 OK in 52ms (Views: 46.8ms | ActiveRecord: 4.3ms)
+I, [2015-04-19T18:06:51.735000 #21005]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2015-04-19 18:06:51 +0200
+F, [2015-04-19T18:06:51.739774 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:06:51.741021 #21005]  INFO -- : Started GET "/javascripts/application.js" for 127.0.0.1 at 2015-04-19 18:06:51 +0200
+F, [2015-04-19T18:06:51.743578 #21005] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/application.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+W, [2015-04-19T18:08:18.292795 #21110]  WARN -- : Warning. Error encountered while saving cache fed51c1430cf74901384042616a610ddcfa52e4f/application.css.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.318393 #21110]  WARN -- : Warning. Error encountered while saving cache 6a4be46e39e4efb4014f121110dd723791650ca1/bootstrap.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.529597 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_variables.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.583026 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_mixins.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.590417 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_hide-text.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.596409 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_opacity.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.606974 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_image.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.612761 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_labels.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.617356 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_reset-filter.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.622162 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_resize.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.628460 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_responsive-visibility.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.633801 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_size.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.638441 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_tab-focus.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.643972 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_text-emphasis.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.648339 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_text-overflow.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.684731 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_vendor-prefixes.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.693171 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_alerts.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.702781 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_buttons.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.709287 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_panels.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.716135 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_pagination.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.723448 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_list-group.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.728907 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_nav-divider.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.744429 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_forms.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.750124 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_progress-bar.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.757797 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_table-row.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.763623 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_background-variant.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.769897 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_border-radius.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.796702 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_gradients.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.803103 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_clearfix.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.807621 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_center-block.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.813191 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_nav-vertical-align.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.833108 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_grid-framework.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.871362 #21110]  WARN -- : Warning. Error encountered while saving cache 9e986ab8d81c9c304ac3f5bffa431a09c916e024/_grid.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.909561 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_normalize.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:18.925385 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_print.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.021800 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_glyphicons.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.120199 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_scaffolding.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.157150 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_type.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.181641 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_code.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.193197 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_grid.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.378907 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_tables.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.434963 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_forms.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.469893 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_buttons.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.490369 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_component-animations.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.512265 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_dropdowns.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.540501 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_button-groups.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.564110 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_input-groups.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.589156 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_navs.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.656333 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_navbar.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.685114 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_breadcrumbs.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.698555 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_pagination.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.711472 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_pager.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.725250 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_labels.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.737454 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_badges.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.748516 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_jumbotron.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.758558 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_thumbnails.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.769126 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_alerts.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.784973 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_progress-bars.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.798883 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_media.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.813454 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_list-group.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.867474 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_panels.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.884039 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_responsive-embed.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.892656 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_wells.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.900983 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_close.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.924806 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_modals.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.946879 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_tooltip.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:19.971113 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_popovers.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:20.000177 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_carousel.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:20.017524 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_utilities.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+W, [2015-04-19T18:08:20.044044 #21110]  WARN -- : Warning. Error encountered while saving cache 787eb803c27f997e61b9bbb8ac5163589d004d36/_responsive-utilities.scssc: can't dump anonymous class #<Class:0x00000005093620>
+
+I, [2015-04-19T18:08:44.405598 #21170]  INFO -- : Started GET "/categories/1/products/1" for 127.0.0.1 at 2015-04-19 18:08:44 +0200
+I, [2015-04-19T18:08:44.443530 #21170]  INFO -- : Processing by ProductsController#show as HTML
+I, [2015-04-19T18:08:44.443673 #21170]  INFO -- :   Parameters: {"category_id"=>"1", "id"=>"1"}
+I, [2015-04-19T18:08:44.546781 #21170]  INFO -- :   Rendered reviews/_form.html.haml (36.6ms)
+I, [2015-04-19T18:08:44.599115 #21170]  INFO -- :   Rendered reviews/_review.html.haml (38.2ms)
+I, [2015-04-19T18:08:44.604600 #21170]  INFO -- :   Rendered products/show.html.haml within layouts/application (158.0ms)
+I, [2015-04-19T18:08:44.627633 #21170]  INFO -- : Completed 200 OK in 184ms (Views: 161.8ms | ActiveRecord: 21.4ms)
+F, [2015-04-19T18:08:44.810188 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-17ef637aee7f7c839d059bd2df47ec88.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+F, [2015-04-19T18:08:44.813866 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-12777b47893e40aef12cca929f7f69f9.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:35:49.186817 #21170]  INFO -- : Started GET "/categories/1/products/1" for 127.0.0.1 at 2015-04-19 18:35:49 +0200
+I, [2015-04-19T18:35:49.188883 #21170]  INFO -- : Processing by ProductsController#show as HTML
+I, [2015-04-19T18:35:49.189010 #21170]  INFO -- :   Parameters: {"category_id"=>"1", "id"=>"1"}
+I, [2015-04-19T18:35:49.204452 #21170]  INFO -- :   Rendered reviews/_form.html.haml (8.8ms)
+I, [2015-04-19T18:35:49.215320 #21170]  INFO -- :   Rendered reviews/_review.html.haml (6.7ms)
+I, [2015-04-19T18:35:49.219314 #21170]  INFO -- :   Rendered products/show.html.haml within layouts/application (29.4ms)
+I, [2015-04-19T18:35:49.221323 #21170]  INFO -- : Completed 200 OK in 32ms (Views: 27.3ms | ActiveRecord: 4.5ms)
+F, [2015-04-19T18:35:49.416794 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-17ef637aee7f7c839d059bd2df47ec88.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+F, [2015-04-19T18:35:49.493421 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-12777b47893e40aef12cca929f7f69f9.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:36:16.703165 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:36:16 +0200
+I, [2015-04-19T18:36:16.705293 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:36:16.705401 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:36:16.736085 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (29.2ms)
+I, [2015-04-19T18:36:16.736368 #21170]  INFO -- : Completed 500 Internal Server Error in 31ms
+F, [2015-04-19T18:36:16.738387 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x000000056d4a98>):
+    12:           = product.title
+    13:           %br
+    14:           %b Price
+    15:           = product.price zł
+    16:           %br
+    17:           %b Description
+    18:           product.description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:36:41.431389 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:36:41 +0200
+I, [2015-04-19T18:36:41.433414 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:36:41.433533 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:36:41.456284 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (21.7ms)
+I, [2015-04-19T18:36:41.456690 #21170]  INFO -- : Completed 500 Internal Server Error in 23ms
+F, [2015-04-19T18:36:41.458818 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x00000005448b08>):
+    12:           = product.title
+    13:           %br
+    14:           %b Price
+    15:           = product.price 
+    16:           zł
+    17:           %br
+    18:           %b Description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:36:45.511362 #21170]  INFO -- : Started GET "/categories/1/products/1" for 127.0.0.1 at 2015-04-19 18:36:45 +0200
+I, [2015-04-19T18:36:45.513611 #21170]  INFO -- : Processing by ProductsController#show as HTML
+I, [2015-04-19T18:36:45.513816 #21170]  INFO -- :   Parameters: {"category_id"=>"1", "id"=>"1"}
+I, [2015-04-19T18:36:45.530638 #21170]  INFO -- :   Rendered reviews/_form.html.haml (9.8ms)
+I, [2015-04-19T18:36:45.541904 #21170]  INFO -- :   Rendered reviews/_review.html.haml (6.9ms)
+I, [2015-04-19T18:36:45.545743 #21170]  INFO -- :   Rendered products/show.html.haml within layouts/application (30.6ms)
+I, [2015-04-19T18:36:45.547709 #21170]  INFO -- : Completed 200 OK in 34ms (Views: 28.5ms | ActiveRecord: 4.7ms)
+F, [2015-04-19T18:36:45.647400 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-17ef637aee7f7c839d059bd2df47ec88.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+F, [2015-04-19T18:36:45.654067 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-12777b47893e40aef12cca929f7f69f9.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:36:47.472106 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:36:47 +0200
+I, [2015-04-19T18:36:47.474083 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:36:47.474216 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:36:47.497916 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (22.7ms)
+I, [2015-04-19T18:36:47.498204 #21170]  INFO -- : Completed 500 Internal Server Error in 24ms
+F, [2015-04-19T18:36:47.500289 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x000000050942f0>):
+    12:           = product.title
+    13:           %br
+    14:           %b Price
+    15:           = product.price 
+    16:           zł
+    17:           %br
+    18:           %b Description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:37:07.960437 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:37:07 +0200
+I, [2015-04-19T18:37:07.962595 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:37:07.962754 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:37:07.986365 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (22.4ms)
+I, [2015-04-19T18:37:07.986630 #21170]  INFO -- : Completed 500 Internal Server Error in 24ms
+F, [2015-04-19T18:37:07.988765 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x000000041edf08>):
+    12:           = product.title
+    13:           %br
+    14:           %b Price
+    15:           = product.price 
+    16:           zl
+    17:           %br
+    18:           %b Description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:37:33.993152 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:37:33 +0200
+I, [2015-04-19T18:37:33.995239 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:37:33.995432 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:37:34.019751 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (23.3ms)
+I, [2015-04-19T18:37:34.020107 #21170]  INFO -- : Completed 500 Internal Server Error in 25ms
+F, [2015-04-19T18:37:34.022220 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x00000003ecd558>):
+    12:           = product.title
+    13:           %br
+    14:           %b Price
+    15:           = product.price,zl
+    16:           %br
+    17:           %b Description
+    18:           product.description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:38:59.090103 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:38:59 +0200
+I, [2015-04-19T18:38:59.091940 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:38:59.092091 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:38:59.117908 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (24.7ms)
+I, [2015-04-19T18:38:59.118163 #21170]  INFO -- : Completed 500 Internal Server Error in 26ms
+F, [2015-04-19T18:38:59.120710 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x00000003ab81e8>):
+    12:           %b Title
+    13:           = product.title
+    14:           %br
+    15:           %b Price
+    16:           = product.price
+    17:           %br
+    18:           %b Description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:39:03.160392 #21170]  INFO -- : Started GET "/categories" for 127.0.0.1 at 2015-04-19 18:39:03 +0200
+I, [2015-04-19T18:39:03.177320 #21170]  INFO -- : Processing by CategoriesController#index as HTML
+I, [2015-04-19T18:39:03.259448 #21170]  INFO -- :   Rendered categories/index.html.haml within layouts/application (9.6ms)
+I, [2015-04-19T18:39:03.260952 #21170]  INFO -- : Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 1.4ms)
+F, [2015-04-19T18:39:03.381450 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-12777b47893e40aef12cca929f7f69f9.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+F, [2015-04-19T18:39:03.385314 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-17ef637aee7f7c839d059bd2df47ec88.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:39:06.481532 #21170]  INFO -- : Started GET "/categories/1" for 127.0.0.1 at 2015-04-19 18:39:06 +0200
+I, [2015-04-19T18:39:06.483394 #21170]  INFO -- : Processing by CategoriesController#show as HTML
+I, [2015-04-19T18:39:06.483545 #21170]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2015-04-19T18:39:06.509325 #21170]  INFO -- :   Rendered products/_form.html.haml (7.3ms)
+I, [2015-04-19T18:39:06.512099 #21170]  INFO -- :   Rendered categories/show.html.haml within layouts/application (26.6ms)
+I, [2015-04-19T18:39:06.514341 #21170]  INFO -- : Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 1.9ms)
+F, [2015-04-19T18:39:06.626768 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-17ef637aee7f7c839d059bd2df47ec88.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+F, [2015-04-19T18:39:06.633407 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-12777b47893e40aef12cca929f7f69f9.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:39:07.666166 #21170]  INFO -- : Started GET "/categories/1/products/1" for 127.0.0.1 at 2015-04-19 18:39:07 +0200
+I, [2015-04-19T18:39:07.668617 #21170]  INFO -- : Processing by ProductsController#show as HTML
+I, [2015-04-19T18:39:07.668769 #21170]  INFO -- :   Parameters: {"category_id"=>"1", "id"=>"1"}
+I, [2015-04-19T18:39:07.683760 #21170]  INFO -- :   Rendered reviews/_form.html.haml (8.3ms)
+I, [2015-04-19T18:39:07.695819 #21170]  INFO -- :   Rendered reviews/_review.html.haml (8.1ms)
+I, [2015-04-19T18:39:07.698913 #21170]  INFO -- :   Rendered products/show.html.haml within layouts/application (29.0ms)
+I, [2015-04-19T18:39:07.700700 #21170]  INFO -- : Completed 200 OK in 32ms (Views: 27.6ms | ActiveRecord: 3.8ms)
+F, [2015-04-19T18:39:07.822294 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-17ef637aee7f7c839d059bd2df47ec88.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+F, [2015-04-19T18:39:07.825873 #21170] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/assets/application-12777b47893e40aef12cca929f7f69f9.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.0.3) lib/quiet_assets.rb:23:in `call_with_quiet_assets'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2015-04-19T18:39:09.560314 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:39:09 +0200
+I, [2015-04-19T18:39:09.561851 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:39:09.561943 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:39:09.588925 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (26.1ms)
+I, [2015-04-19T18:39:09.589186 #21170]  INFO -- : Completed 500 Internal Server Error in 27ms
+F, [2015-04-19T18:39:09.591112 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x0000000545aab0>):
+    12:           %b Title
+    13:           = product.title
+    14:           %br
+    15:           %b Price
+    16:           = product.price
+    17:           %br
+    18:           %b Description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
+I, [2015-04-19T18:39:23.274987 #21170]  INFO -- : Started GET "/categories/1/products" for 127.0.0.1 at 2015-04-19 18:39:23 +0200
+I, [2015-04-19T18:39:23.277630 #21170]  INFO -- : Processing by ProductsController#index as HTML
+I, [2015-04-19T18:39:23.277791 #21170]  INFO -- :   Parameters: {"category_id"=>"1"}
+I, [2015-04-19T18:39:23.300767 #21170]  INFO -- :   Rendered products/index.html.haml within layouts/application (22.0ms)
+I, [2015-04-19T18:39:23.301063 #21170]  INFO -- : Completed 500 Internal Server Error in 23ms
+F, [2015-04-19T18:39:23.303061 #21170] FATAL -- : 
+ActionView::Template::Error (undefined local variable or method `zł' for #<#<Class:0x0000000521b8d0>:0x000000053013d0>):
+    12:           = product.title
+    13:           %br
+    14:           %b Price
+    15:           = product.price
+    16:           %br
+    17:           %b Description
+    18:           product.description
+  app/views/products/index.html.haml:15:in `block in _app_views_products_index_html_haml___4425119130568483423_45485500'
+  app/views/products/index.html.haml:8:in `_app_views_products_index_html_haml___4425119130568483423_45485500'
+
+
