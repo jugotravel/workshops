@@ -1,0 +1,42 @@
+%p#notice= notice
+%p#error= flash[:error]
+
+.jumbotron
+  %h1
+    %p
+      %b 
+      = product.title
+.container
+  .row
+    .col-md-6
+      .well Description: 
+    .pull-right
+    .span 
+      .well
+        = product.description
+    .col-md-6
+      .well Price: 
+    .pull-right
+    .span 
+      .well
+        = product.price
+    .col-md-6
+      .well Category: 
+    .pull-right
+    .span 
+      .well
+        = product.category.name
+    %br   
+
+
+.container
+  %h3 Reviews
+  = render 'reviews/form'
+    
+  = render reviews
+  - if current_user == product.user
+    = link_to 'Edit', edit_category_product_path(category.id, product.id)
+    \|
+    = link_to 'Back', category_products_path, class: 'btn btn-primary'
+  - else
+    = link_to 'Back', category_products_path, class: 'btn btn-primary'

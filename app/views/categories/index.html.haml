@@ -1,0 +1,23 @@
+%p#notice= notice
+%p#error= flash[:error]
+
+.jumbotron
+  %h1 Listing categories
+.container
+  .row
+    - categories.each do |category|
+      .col-md-3
+        .well
+          %b= category.name
+          %br
+          %br
+          - if current_user.try(:admin?)
+            = link_to 'Show', category
+            = link_to 'Edit', edit_category_path(category)
+            = link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' }
+          - else
+            = link_to 'Show', category
+        %br
+%br
+.btn-lg.btn-default
+  = link_to 'New Category', new_category_path

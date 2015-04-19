@@ -1,0 +1,10 @@
+%p#notice= notice
+%p#error= flash[:error]
+.jumbotron
+  %h2 Editing category
+.container
+  = render 'form'
+
+  = link_to 'Show', category
+  \|
+  = link_to 'Back', categories_path, class: 'btn btn-primary'

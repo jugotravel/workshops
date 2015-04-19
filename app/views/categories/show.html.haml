@@ -1,0 +1,28 @@
+%p#notice= notice
+%p#error= flash[:error]
+
+
+.jumbotron
+  %h1
+    %p
+      %b 
+      = category.name
+
+.container
+  .row
+    - category.products.each do |product|
+      .col-md-3
+        .well= link_to product.title, category_product_path(product.category_id, product)
+        %br
+
+.container
+  %p
+    %h3 New product
+    = render 'products/form'
+  
+    - if current_user.try(:admin?)
+      = link_to 'Edit', edit_category_path(category)
+      \|
+      = link_to 'Back', categories_path, class: 'btn btn-primary'
+    - else
+      = link_to 'Back', categories_path, class: 'btn btn-primary'

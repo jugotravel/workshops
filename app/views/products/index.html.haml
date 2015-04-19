@@ -1,0 +1,32 @@
+%p#notice= notice
+%p#error= flash[:error]
+.jumbotron
+  %h1 Listing products
+
+.container
+  .row
+    - products.each do |product|
+      .col-md-3
+        .well
+          %b Title
+          = product.title
+          %br
+          %b Price
+          = product.price
+          %br
+          %b Description
+          product.description
+          %br
+            - if current_user == product.user
+              %td= link_to 'Show', category_product_path(product.category_id, product)
+              %td= link_to 'Edit', edit_category_product_path(product.category_id, product)
+              %td= link_to 'Destroy', category_product_path(product.category_id, product), method: :delete, data: { confirm: 'Are you sure?' }
+            - else
+              %td= link_to 'Show', category_product_path(product.category_id, product)
+          %br
+
+.container
+  %br
+  = link_to 'Show', category
+  \|
+  = link_to 'Back', categories_path, class: 'btn btn-primary'

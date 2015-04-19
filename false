@@ -1,0 +1,2 @@
+      invoke  active_record
+    conflict    db/migrate/20150415144528_add_admin_to_users.rb

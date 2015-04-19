@@ -1,0 +1,60 @@
+%p#notice= notice
+%p#error= flash[:error]
+.jumbotron
+  %h1
+    %p
+      %b User Profile
+.container
+  .row
+    .col-md-6
+      .well User firstname: 
+    .pull-right
+    .span 
+      .well
+        = @user.firstname
+    .col-md-6
+      .well User lastname: 
+    .pull-right
+    .span 
+      .well
+        = @user.lastname
+    .col-md-6
+      .well Email: 
+    .pull-right
+    .span 
+      .well
+        = @user.email
+    .col-md-6
+      .well Current ip:
+    .pull-right
+    .span 
+      .well
+        = @user.current_sign_in_ip
+    .col-md-6
+      .well Last sign in:
+    .pull-right
+    .span 
+      .well
+        = @user.last_sign_in_at.strftime("%H:%M %m:%d:%Y")
+    .col-md-6
+      .well Created at:
+    .pull-right
+    .span 
+      .well
+        = @user.created_at.strftime("%H:%M %m:%d:%Y") 
+    %br
+%p      
+  %b Last 5 Review
+.container
+  %p
+    %table
+    -@reviews.each do |review|
+      %tr
+        %br
+        %td= review.created_at.strftime("%m:%d:%Y")
+        %td= review.rating
+        %br
+        %td= review.content 
+.container
+  %br
+    = link_to 'Back', root_path, class: 'btn btn-primary'

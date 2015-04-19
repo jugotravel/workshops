@@ -1,0 +1,70 @@
+@import "bootstrap";
+
+body {
+  margin: 0;
+	padding: 0;
+	text-align: left;
+  margin-left: 30px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #061C37;
+  background-color: #FFFF66;
+	background-repeat:repeat-x;
+  position: relative;
+}
+
+.navbar-default {
+    background-color: #89a4fa;
+    a {
+      color: black;
+      text-decoration: none;
+      font-family: "Times New Roman", Times, serif;
+      &:hover {
+        text-decoration: underline;
+  }
+}
+}
+.navbar-default .navbar-brand {
+    color: yellow
+}
+
+.jumbotron{
+    background-color: #FFFFCC;
+}
+.p {
+  text-align: center;
+  padding-top: 120px;
+}
+form{
+  width: 50%
+}
+.row{
+  margin-right:100px;
+}
+.col-md-3{
+  padding-top: 40px;
+  text-align: center;
+  padding:10px;
+	font-size:15px;
+	font-family:Arial;
+	font-weight:normal;
+  .well{
+    background-color: #FFFFCC;
+  }
+}
+
+table,.table, th, td{
+    border-width:0px 1px 1px 0px;
+	  text-align:left;
+	  padding:10px;
+	  font-size:15px;
+	  font-family:Arial;
+	  font-weight:normal;
+    
+}
+.btn-lg.btn-default{
+   text-align:center;
+}
+
+
+
